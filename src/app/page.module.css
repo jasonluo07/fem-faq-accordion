@@ -7,6 +7,19 @@
   z-index: -1;
 }
 
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 327px;
+  height: 527px;
+  background-color: #fff;
+}
+
 @media (min-width: 768px) {
   .backgroundPattern {
     background-image: url('/background-pattern-desktop.svg');

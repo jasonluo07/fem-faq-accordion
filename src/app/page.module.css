@@ -44,6 +44,11 @@
           width: 225px;
           font-weight: 600;
           color: #301534;
+          cursor: pointer;
+        }
+
+        .text:hover {
+          color: #ad28eb;
         }
       }
     }

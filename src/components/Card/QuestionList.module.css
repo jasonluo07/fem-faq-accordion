@@ -18,6 +18,13 @@
         color: #ad28eb;
       }
     }
+
+    .answer {
+      color: #8b6990;
+      font-size: 14px;
+      line-height: 1.5;
+      margin-top: 24px;
+    }
   }
 
   .questionItem:not(:first-child) {

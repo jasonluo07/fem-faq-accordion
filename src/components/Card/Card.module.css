@@ -18,3 +18,19 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .card {
+    width: 600px;
+    padding: 40px;
+    border-radius: 16px;
+
+    .header {
+      margin-bottom: 32px;
+
+      .title {
+        font-size: 56px;
+      }
+    }
+  }
+}

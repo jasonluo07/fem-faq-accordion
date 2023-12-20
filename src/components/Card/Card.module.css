@@ -1,0 +1,18 @@
+.card {
+  width: 327px;
+  background-color: #fff;
+  padding: 24px;
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 0 24px;
+    margin-bottom: 24px;
+
+    .title {
+      font-size: 32px;
+      font-weight: 700;
+      color: #301534;
+    }
+  }
+}

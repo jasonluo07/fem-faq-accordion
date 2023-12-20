@@ -2,7 +2,7 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-block: 142.5px;
 
   .backgroundPattern {
     background-image: url('/background-pattern-mobile.svg');
@@ -16,6 +16,8 @@
 
 @media (min-width: 768px) {
   .main {
+    padding-block: 167.5px;
+
     .backgroundPattern {
       background-image: url('/background-pattern-desktop.svg');
       height: 320px;

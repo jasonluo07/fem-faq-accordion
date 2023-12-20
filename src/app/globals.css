@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+body {
+  background: #f8eeff;
+}
+
 a {
   color: inherit;
   text-decoration: none;

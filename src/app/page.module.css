@@ -1,0 +1,15 @@
+.backgroundPattern {
+  background-image: url('/background-pattern-mobile.svg');
+  height: 232px;
+
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+  .backgroundPattern {
+    background-image: url('/background-pattern-desktop.svg');
+    height: 320px;
+  }
+}

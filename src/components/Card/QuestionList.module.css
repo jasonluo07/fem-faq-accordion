@@ -1,12 +1,12 @@
 .questionList {
   .questionItem {
-    .title {
+    .header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 0 24px;
 
-      .text {
+      .title {
         width: 225px;
         font-size: 16px;
         font-weight: 600;
@@ -14,7 +14,7 @@
         cursor: pointer;
       }
 
-      .text:hover {
+      .title:hover {
         color: #ad28eb;
       }
     }
@@ -40,8 +40,8 @@
 @media (min-width: 768px) {
   .questionList {
     .questionItem {
-      .title {
-        .text {
+      .header {
+        .title {
           width: unset;
           font-size: 18px;
         }

@@ -1,20 +1,39 @@
+'use client';
+
 import { QUESTIONS } from '@/constants';
 import Image from 'next/image';
+import { useState } from 'react';
 
 import styles from './QuestionList.module.css';
 
 const QuestionList = () => {
+  const [openQuestions, setOpenQuestions] = useState<Set<string>>(new Set());
+
   return (
     <ul className={styles.questionList}>
-      {QUESTIONS.map(question => (
-        <li key={question.key} className={styles.questionItem}>
-          <div className={styles.title}>
-            <h2 className={styles.text}>{question.title}</h2>
-            <Image src="/icon-plus.svg" alt="plus" width={30} height={30} />
-          </div>
-          <p className={styles.answer}>{question.answer}</p>
-        </li>
-      ))}
+      {QUESTIONS.map(({ key, title, answer }) => {
+        const isOpen = openQuestions.has(key);
+
+        const handleToggle = () => {
+          const newOpenQuestions = new Set(openQuestions);
+          isOpen ? newOpenQuestions.delete(key) : newOpenQuestions.add(key);
+          setOpenQuestions(newOpenQuestions);
+        };
+
+        return (
+          <li key={key} className={styles.questionItem}>
+            <div className={styles.header}>
+              <h2 className={styles.title}>{title}</h2>
+              {isOpen ? (
+                <Image src="/icon-minus.svg" alt="minus" width={30} height={30} onClick={handleToggle} />
+              ) : (
+                <Image src="/icon-plus.svg" alt="plus" width={30} height={30} onClick={handleToggle} />
+              )}
+            </div>
+            {isOpen && <p className={styles.answer}>{answer}</p>}
+          </li>
+        );
+      })}
     </ul>
   );
 };

@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FAQ accordion - Frontend Mentor 解答
 
-## Getting Started
+這是 [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz) 的解答。
 
-First, run the development server:
+## 目錄
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [概述](#概述)
+  - [挑戰](#挑戰)
+  - [截圖](#截圖)
+  - [連結](#連結)
+- [我的過程](#我的過程)
+  - [建置於](#建置於)
+  - [我學到的](#我學到的)
+  - [持續開發](#持續開發)
+  - [實用資源](#實用資源)
+- [作者](#作者)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 概述
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 挑戰
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+使用者應該能夠：
 
-## Learn More
+- [x] 當點擊問題時顯示/隱藏答案
+- [ ] 僅使用鍵盤導航來導航問題並顯示/隱藏答案
+- [x] 根據他們設備的螢幕尺寸查看介面的最佳佈局
+- [x] 在頁面上查看所有互動元素的懸停和聚焦狀態
 
-To learn more about Next.js, take a look at the following resources:
+### 截圖
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![](./public/design/desktop-preview.jpg)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 連結
 
-## Deploy on Vercel
+- 展示：[點擊前往](https://jasonluo07.github.io/fm-faq-accordion/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 我的過程
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 建置於
+
+- Next.js 14 w/ App Router
+- React 18
+- TypeScript 5
+
+### 我學到的
+
+- RWD
+- Next.js 部署到 GitHub Pages，請參閱 .github/workflows/nextjs.yml 檔案
+- 資料結構 Set 的使用
+
+
+### 持續開發
+
+待補充
+
+### 實用資源
+
+待補充
+
+## 作者
+
+- GitHub - [jasonluo07](https://github.com/jasonluo07)
+- Frontend Mentor - [@yulaie1012](https://www.frontendmentor.io/profile/yulaie1012)

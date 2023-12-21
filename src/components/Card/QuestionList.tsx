@@ -22,12 +22,12 @@ const QuestionList = () => {
 
         return (
           <li key={key} className={styles.questionItem}>
-            <div className={styles.header}>
+            <div className={styles.header} onClick={handleToggle}>
               <h2 className={styles.title}>{title}</h2>
               {isOpen ? (
-                <Image src="/icon-minus.svg" alt="minus" width={30} height={30} onClick={handleToggle} />
+                <Image src="/icon-minus.svg" alt="minus" width={30} height={30} />
               ) : (
-                <Image src="/icon-plus.svg" alt="plus" width={30} height={30} onClick={handleToggle} />
+                <Image src="/icon-plus.svg" alt="plus" width={30} height={30} />
               )}
             </div>
             {isOpen && <p className={styles.answer}>{answer}</p>}

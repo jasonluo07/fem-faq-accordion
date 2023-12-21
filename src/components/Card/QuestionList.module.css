@@ -14,7 +14,7 @@
         cursor: pointer;
       }
 
-      .title:hover {
+      &:hover .title {
         color: #ad28eb;
       }
     }

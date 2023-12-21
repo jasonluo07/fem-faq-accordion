@@ -1,4 +1,4 @@
-.card {
+.faqSection {
   width: 327px;
   height: 100%;
   background-color: var(--color-white);
@@ -26,7 +26,7 @@
 }
 
 @media (min-width: 768px) {
-  .card {
+  .faqSection {
     width: 600px;
     padding: 40px;
     border-radius: 16px;

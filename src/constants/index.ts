@@ -1,4 +1,4 @@
-import { IQuestion } from '@/types';
+import type { IQuestion } from '@/types';
 
 export const QUESTIONS: IQuestion[] = [
   {

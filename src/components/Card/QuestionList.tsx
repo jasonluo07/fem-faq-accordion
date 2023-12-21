@@ -25,7 +25,7 @@ const QuestionList = () => {
           <li key={key} className={styles.questionItem}>
             <div className={styles.header} onClick={handleToggle}>
               <h2 className={styles.title}>{title}</h2>
-              <Image src={`/icon-${displayIcon}.svg`} alt={displayIcon} width={30} height={30} />
+              <Image src={`/fm-faq-accordion/icon-${displayIcon}.svg`} alt={displayIcon} width={30} height={30} />
             </div>
             {isOpen && <p className={styles.answer}>{answer}</p>}
           </li>

@@ -1,3 +1,12 @@
+:root {
+  --font-family: 'Work Sans';
+  --color-white: #ffffff;
+  --color-pink: #ad28eb;
+  --color-light-pink: #f8eeff;
+  --color-pale-pink: #8b6990;
+  --color-dark-purple: #301534;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,7 +16,7 @@
 
 body {
   font-family: 'Work Sans';
-  background: #f8eeff;
+  background: var(--color-light-pink);
 }
 
 a {

@@ -5,7 +5,7 @@
   padding-block: 142.5px;
 
   .backgroundPattern {
-    background-image: url('/background-pattern-mobile.svg');
+    background-image: url('/fm-faq-accordion/background-pattern-mobile.svg');
     height: 232px;
 
     position: fixed;
@@ -19,7 +19,7 @@
     padding-block: 167.5px;
 
     .backgroundPattern {
-      background-image: url('/background-pattern-desktop.svg');
+      background-image: url('/fm-faq-accordion/background-pattern-desktop.svg');
       height: 320px;
     }
   }

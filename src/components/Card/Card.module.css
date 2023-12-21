@@ -12,6 +12,11 @@
     gap: 0 24px;
     margin-bottom: 24px;
 
+    .star {
+      width: 24px;
+      height: 24px;
+    }
+
     .title {
       font-size: 32px;
       font-weight: 700;
@@ -28,6 +33,11 @@
 
     .header {
       margin-bottom: 32px;
+
+      .star {
+        width: 40px;
+        height: 40px;
+      }
 
       .title {
         font-size: 56px;

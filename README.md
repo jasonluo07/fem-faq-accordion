@@ -1,13 +1,13 @@
-# FAQ accordion - Frontend Mentor 解答
+# FAQ accordion - Frontend Mentor
 
-這是 [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz) 的解答。
+這是針對 [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz) 挑戰的解答。
 
 ## 目錄
 
 - [概述](#概述)
-  - [挑戰](#挑戰)
   - [截圖](#截圖)
   - [連結](#連結)
+  - [挑戰](#挑戰)
 - [我的過程](#我的過程)
   - [建置於](#建置於)
   - [我學到的](#我學到的)
@@ -17,6 +17,16 @@
 
 ## 概述
 
+### 截圖
+
+![](./public/design/desktop-preview.jpg)
+
+### 連結
+
+- 展示：[點擊前往](https://jasonluo07.github.io/fm-faq-accordion/)
+- 原始碼：[點擊前往](https://github.com/jasonluo07/fm-faq-accordion)
+- 解答：[點擊前往](https://www.frontendmentor.io/solutions/faq-accordion-using-nextjs-PAvBohufol)
+
 ### 挑戰
 
 使用者應該能夠：
@@ -25,14 +35,6 @@
 - [ ] 僅使用鍵盤導航來導航問題並顯示/隱藏答案
 - [x] 根據他們設備的螢幕尺寸查看介面的最佳佈局
 - [x] 在頁面上查看所有互動元素的懸停和聚焦狀態
-
-### 截圖
-
-![](./public/design/desktop-preview.jpg)
-
-### 連結
-
-- 展示：[點擊前往](https://jasonluo07.github.io/fm-faq-accordion/)
 
 ## 我的過程
 
@@ -44,6 +46,7 @@
 
 ### 我學到的
 
+- UI 組件：Accordion（手風琴）
 - RWD
 - Next.js 部署到 GitHub Pages，請參閱 .github/workflows/nextjs.yml 檔案
 - 資料結構 Set 的使用

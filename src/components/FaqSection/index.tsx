@@ -8,7 +8,13 @@ const FaqSection = () => {
   return (
     <section className={styles.faqSection}>
       <div className={styles.header}>
-        <Image src="/fm-faq-accordion/images/icon-star.svg" alt="star" className={styles.star} width={24} height={24} />
+        <Image
+          src="/fem-faq-accordion/images/icon-star.svg"
+          alt="star"
+          className={styles.star}
+          width={24}
+          height={24}
+        />
         <h1 className={styles.title}>FAQs</h1>
       </div>
       <QuestionList questions={QUESTIONS} />

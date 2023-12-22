@@ -30,7 +30,7 @@ const QuestionList = ({ questions }: QuestionListProp) => {
             <div className={styles.header} onClick={handleToggle}>
               <h2 className={styles.title}>{title}</h2>
               <Image
-                src={`/fm-faq-accordion/images/icon-${displayIcon}.svg`}
+                src={`/fem-faq-accordion/images/icon-${displayIcon}.svg`}
                 alt={displayIcon}
                 width={30}
                 height={30}

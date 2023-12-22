@@ -23,8 +23,8 @@
 
 ### 連結
 
-- 展示：[點擊前往](https://jasonluo07.github.io/fm-faq-accordion/)
-- 原始碼：[點擊前往](https://github.com/jasonluo07/fm-faq-accordion)
+- 展示：[點擊前往](https://jasonluo07.github.io/fem-faq-accordion/)
+- 原始碼：[點擊前往](https://github.com/jasonluo07/fem-faq-accordion)
 - 解答：[點擊前往](https://www.frontendmentor.io/solutions/faq-accordion-using-nextjs-PAvBohufol)
 
 ### 挑戰

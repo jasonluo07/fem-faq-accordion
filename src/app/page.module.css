@@ -5,7 +5,7 @@
   padding-block: 142.5px;
 
   .backgroundPattern {
-    background-image: url('/fm-faq-accordion/images/background-pattern-mobile.svg');
+    background-image: url('/fem-faq-accordion/images/background-pattern-mobile.svg');
     height: 232px;
 
     position: fixed;
@@ -19,7 +19,7 @@
     padding-block: 167.5px;
 
     .backgroundPattern {
-      background-image: url('/fm-faq-accordion/images/background-pattern-desktop.svg');
+      background-image: url('/fem-faq-accordion/images/background-pattern-desktop.svg');
       height: 320px;
     }
   }
